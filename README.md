@@ -29,6 +29,8 @@ Once these settings have been set properly, you can create an SMTP server with
 this module like this
 
 ``` js
+var QSeeAlertsServer = require('qsee-alerts').QSeeAlertsServer;
+
 var opts = {
     host: '0.0.0.0',           // SMTP Server listen host
     port: 10465,               // SMTP Server listen port

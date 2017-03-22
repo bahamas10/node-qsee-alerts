@@ -21,6 +21,8 @@ var SMTPServer = require('smtp-server').SMTPServer;
 // an attachment must match this regex to be considered valid
 var ATTACHMENT_RE = /^[a-zA-Z0-9_-]+\.(jpg|png)$/;
 
+module.exports.QSeeAlertsServer = QSeeAlertsServer;
+
 function QSeeAlertsServer(opts) {
     var self = this;
 
